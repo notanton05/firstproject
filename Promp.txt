@@ -1,0 +1,3 @@
+Create a simple HTML file with a canvas element (400x600px) centered on the page with a light blue background. 
+Include inline CSS and JavaScript. 
+Add comments explaining what each section does
