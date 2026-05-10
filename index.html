@@ -183,7 +183,7 @@
         return ax < bx + bw && ax + aw > bx && ay < by + bh && ay + ah > by;
       }
 
-      // Hitbox matches the yellow body (fair vs. decorative beak/eye drawn outside).
+      // Hitbox matches the blue body (fair vs. decorative beak/eye drawn outside).
       function birdHitbox() {
         return { x: birdX, y: birdY, w: birdW, h: birdH };
       }
@@ -319,8 +319,8 @@
         ctx.ellipse(bx + birdW / 2 + 2, by + birdH / 2 + 3, birdW * 0.55, birdH * 0.55, 0, 0, Math.PI * 2);
         ctx.fill();
 
-        ctx.fillStyle = "#ffeb3b";
-        ctx.strokeStyle = "#c9a227";
+        ctx.fillStyle = "#42a5f5";
+        ctx.strokeStyle = "#1565c0";
         ctx.lineWidth = 2;
         pathRoundRect(ctx, bx, by, birdW, birdH, 6);
         ctx.fill();
